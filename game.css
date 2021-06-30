@@ -1,0 +1,65 @@
+
+body {
+	background: rgb(76, 109, 161);
+	font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.login_div1,
+.login_div2 {
+	background: white;
+	padding: 10px;
+	float: none;
+	border-radius: 15px;
+	font-size:60px;
+	box-shadow:5px 5px 5px white;
+}
+
+
+#player1_name,
+#player2_name {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#word {
+	width: 60%;
+}
+
+#word_display {
+	letter-spacing: 5px;
+}
+
+#output {
+	background: white;
+	border-radius: 10px;
+	border-top: 10px solid #AA4465;
+	padding: 10px;
+	float: none;
+	text-align: left;
+	font-size:80px;
+}
+#gameTitle{
+	text-shadow: 2px 2px yellow;
+	font-size:80px;
+}
+.the_label{
+	font-size:40px;
+}
+#login {
+	height:60px;	
+	font-size:35px;
+	transition:transform 0.5s;
+}
+#login:hover{
+	transform:translate(5px, 5px);
+}
+#btn_submit{
+    box-shadow:5px 5px 5px grey;
+    transition:transform 1s;
+    height:30px;
+    background-color:red;
+    color:royalblue
+}
+#btn-submit:hover{
+    transform:rotateY(180deg);
+}
